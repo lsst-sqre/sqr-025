@@ -4,7 +4,7 @@ Introduction
 This note is intended to help people just coming to the JupyterLab environment for the first time.
 I will cover data access, user environments, authentication, and brief discussion on getting started in notebooks.
 
-For those too impatient to read to the end, the JupyterLab environment can be accessed at https://lsst-lspdev.ncsa.illinois.edu.
+For those too impatient to read to the end, the JupyterLab environment can be accessed at https://lsst-lspdev.ncsa.illinois.edu/nb.
 
 Authentication
 ==============
@@ -60,7 +60,7 @@ This file is sourced immediately after calling ``setup lsst_distrib``.
 This is where you can override the installed stack versions.
 
 Because you have complete control of your user environment, this means you can also install any arbitrary package via the ``pip install --user package_name`` mechanism, for example.
-But, of course, with great responsibility...
+But, of course, with great power...
 The container does provide versions of some libraries: e.g. bokeh, holoviews, etc.
 Care should be taken since it is possible to shadow versions which can cause issues.
 If you are having problems, you could try moving :file:`$HOME/.local` to a temporary name to see if it is a version collision problem.

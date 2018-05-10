@@ -13,7 +13,7 @@ Currently access is restricted to those IPs on the allowed list.
 At the moment, this is only addresses in the Tucson/AURA network.
 However, others may gain access via the NCSA hosted VPN. Follow instructions in the "Logging into the NCSA VPN" section of `the PDAC wiki <https://confluence.lsstcorp.org/display/DM/PDAC+networking+and+user+accounts+for+developers>`_.
 
-Whether logging in via direct connection or through the VPN, you will need to provide your NCSA Kerberose credentials (the username/password you use to log on to lsst-dev).
+Whether logging in via direct connection or through the VPN, you will need to provide your NCSA Kerberos credentials (the username/password you use to log on to lsst-dev).
 
 Quick Start
 ===========
@@ -26,7 +26,7 @@ Please be judicious and choose the smallest container that will serve your needs
 
 Once logged in, you will see a file browser on the left and a launcher in the main pane.
 Select "LSST_Stack (Python 3)" to get a blank notebook with the LSST stack set up.
-You can always get to the launcher by navigating the menu File --> New Launcher.
+You can always get to the launcher by navigating the menu File → New Launcher.
 
 In the bottom row, there is a Terminal tool.
 This will open up a shell session in your JupyterLab environment.
@@ -43,11 +43,11 @@ All the shared filesystems you would expect are exposed with the same permission
 These include:
 
 - :file:`/datasets` -- This is for shared, curated data.  This filesystem is read only.
-- :file:`/project` -- This is for shared, uncurate, persisted data. There is no disaster recovery, but there is also no enforced quota or purge policy.
+- :file:`/project` -- This is for shared, uncurated, persistent data. There is no disaster recovery, but there is also no enforced quota or purge policy.
 - :file:`/scratch` -- This is for completely transient data. There is no disaster recovery or quota, but there is a purge cycle, so data in this filesystem should not be expected to persist.
 - :file:`/software` -- This is where the shared stack available on other LDF resouces resides. Users should not place files in this filesystem.
 
-The ``home`` environment on other LDF resources is not exposed here for security reasons.  However, the JupyterLab ``home`` is available outside of the JupyterLab environment at :file:`/lsst/jhome/$USER`.
+The ``home`` environment on other LDF resources is not exposed here for security reasons.  However, the JupyterLab ``home`` is available outside of the JupyterLab environment at :file:`/home/$USER/jhome` (a symbolic link to :file:`/lsst/jhome/$USER`).
 
 User Environment
 ================

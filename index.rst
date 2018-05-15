@@ -13,6 +13,8 @@ Currently access is restricted to those IPs on the allowed list.
 At the moment, this is only addresses in the Tucson/AURA network.
 However, others may gain access via the NCSA hosted VPN. Follow instructions in the "Logging into the NCSA VPN" section of `the PDAC wiki <https://confluence.lsstcorp.org/display/DM/PDAC+networking+and+user+accounts+for+developers>`_.
 
+If you happen to already have the AnyConnect client installed, you can skip the above step and just add `vpn.ncsa.illinois.edu` to the AnyConnect connection window.
+
 Whether logging in via direct connection or through the VPN, you will need to provide your NCSA Kerberos credentials (the username/password you use to log on to lsst-dev).
 
 Quick Start

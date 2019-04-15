@@ -4,7 +4,7 @@ Introduction
 This note is intended to help people just coming to the JupyterLab environment for the first time.
 I will cover data access, user environments, authentication, and brief discussion on getting started in notebooks.
 
-For those too impatient to read to the end, the JupyterLab environment can be accessed at https://lsst-lspdev.ncsa.illinois.edu/nb.
+For those too impatient to read to the end, the JupyterLab environment can be accessed at https://lsst-lsp-stable.ncsa.illinois.edu/nb.
 
 Authentication
 ==============

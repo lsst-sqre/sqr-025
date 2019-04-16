@@ -1,6 +1,8 @@
 Introduction
 ============
 
+.. note:: The content contained herein has been ported to a more user friendly documentation site at https://nb.lsst.io.
+
 This note is intended to help people just coming to the JupyterLab environment for the first time.
 I will cover data access, user environments, authentication, and brief discussion on getting started in notebooks.
 

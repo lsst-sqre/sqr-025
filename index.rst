@@ -75,6 +75,5 @@ before installing libraries ``source /opt/lsst/software/stack/loadLSST.bash``.
 
 .. Make in-text citations with: :cite:`bibkey`.
 
-.. .. bibliography:: local.bib lsstbib/books.bib lsstbib/lsst.bib lsstbib/lsst-dm.bib lsstbib/refs.bib lsstbib/refs_ads.bib
-..    :encoding: latex+latin
-..    :style: lsst_aa
+.. bibliography:: local.bib lsstbib/books.bib lsstbib/lsst.bib lsstbib/lsst-dm.bib lsstbib/refs.bib lsstbib/refs_ads.bib
+   :style: lsst_aa

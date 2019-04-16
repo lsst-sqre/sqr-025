@@ -1,10 +1,12 @@
 Introduction
 ============
 
+.. note:: The content contained herein has been ported to a more user friendly documentation site at https://nb.lsst.io.
+
 This note is intended to help people just coming to the JupyterLab environment for the first time.
 I will cover data access, user environments, authentication, and brief discussion on getting started in notebooks.
 
-For those too impatient to read to the end, the JupyterLab environment can be accessed at https://lsst-lspdev.ncsa.illinois.edu/nb.
+For those too impatient to read to the end, the JupyterLab environment can be accessed at https://lsst-lsp-stable.ncsa.illinois.edu/nb.
 
 Authentication
 ==============
@@ -75,6 +77,5 @@ before installing libraries ``source /opt/lsst/software/stack/loadLSST.bash``.
 
 .. Make in-text citations with: :cite:`bibkey`.
 
-.. .. bibliography:: local.bib lsstbib/books.bib lsstbib/lsst.bib lsstbib/lsst-dm.bib lsstbib/refs.bib lsstbib/refs_ads.bib
-..    :encoding: latex+latin
-..    :style: lsst_aa
+.. bibliography:: local.bib lsstbib/books.bib lsstbib/lsst.bib lsstbib/lsst-dm.bib lsstbib/refs.bib lsstbib/refs_ads.bib
+   :style: lsst_aa
